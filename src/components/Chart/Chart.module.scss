@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 16px;
+  color: #2a2a2f;
+}
+.chart {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #d5dddd;
+  height: 21px;
+}
+
+.item {
+  background-color: #0aadce;
+  position: absolute;
+  top: 0;
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+  .name {
+    width: 30%;
+  }
+}

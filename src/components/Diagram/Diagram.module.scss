@@ -1,0 +1,30 @@
+.diagram,
+.header {
+  font-family: "Roboto" sans-serif;
+  padding: 50px 20px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 375px) {
+  .diagram,
+  .header {
+    padding: 70px 30px;
+  }
+}
+@media (min-width: 1280px) {
+  .diagram,
+  .header {
+    padding: 100px 50px;
+  }
+  .header {
+    flex-direction: row;
+  }
+}
